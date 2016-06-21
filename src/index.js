@@ -27,19 +27,19 @@ var APP_ID = undefined; //OPTIONAL: replace with "amzn1.echo-sdk-ams.app.[your-u
  * Array containing space facts.
  */
 var FACTS = [
-    "A year on Mercury is just 88 days long.",
-    "Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.",
-    "Venus rotates counter-clockwise, possibly because of a collision in the past with an asteroid.",
-    "On Mars, the Sun appears about half the size as it does on Earth.",
-    "Earth is the only planet not named after a god.",
-    "Jupiter has the shortest day of all the planets.",
-    "The Milky Way galaxy will collide with the Andromeda Galaxy in about 5 billion years.",
-    "The Sun contains 99.86% of the mass in the Solar System.",
-    "The Sun is an almost perfect sphere.",
-    "A total solar eclipse can happen once every 1 to 2 years. This makes them a rare event.",
-    "Saturn radiates two and a half times more energy into space than it receives from the sun.",
-    "The temperature inside the Sun can reach 15 million degrees Celsius.",
-    "The Moon is moving approximately 3.8 cm away from our planet every year."
+    "The name “wallaby” comes from the Eora Aboriginal tribe.",
+    "A young wallaby is called a joey.",
+    "The adult male wallaby is called a buck, boomer or jack.",
+    "The adult female wallaby is called a doe, flyer or jill.",
+    "A group of wallabies is called a mob, troup or court.",
+    "Wallabies are closely related to the Kangaroo, but are smaller in size and stockier.",
+    "When a wallaby is alarmed or senses danger, it makes foot thumps like a drummer to warn others of the potential threat.",
+    "The titular character of Rocko's Modern life is a wallaby.",
+    "Canines such as dingos and foxes are the main predators of the wallaby.",
+    "Grasses make up the bulk of the wallaby's diet along with leaves from low trees and shrubs and berries.",
+    "Very small forest-dwelling wallabies are known as pademelons.",
+    "Wallabies are widespread across Australia, particularly in more remote, rocky and rugged areas.",
+    "A female wallaby can produce two different kinds of milk at the same time, one for her baby and another, richer blend, for her older offspring."
 ];
 
 /**
@@ -119,4 +119,3 @@ exports.handler = function (event, context) {
     var fact = new Fact();
     fact.execute(event, context);
 };
-
